@@ -1,0 +1,29 @@
+{
+  "name": "ifts16-simple-api-nodejs",
+  "version": "1.0.0",
+  "description": "Simple Api NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmonFla/ifts16-simple-api-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmonFla/ifts16-simple-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/AmonFla/ifts16-simple-api-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}

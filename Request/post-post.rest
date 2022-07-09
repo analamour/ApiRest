@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/objeto
+Content-Type: application/json 
+
+{
+  "title" : "primer post",
+  "content" : "mucho bla bla bla"
+}
+
+###
+PUT http://127.0.0.1:8000/objeto/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title" : "segund post",
+  "content" : "mucho bla bla bla"
+}
